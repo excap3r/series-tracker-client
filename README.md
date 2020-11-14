@@ -51,14 +51,14 @@ This allows you to watch your favorite series on VLC and automatically synchroni
 ```javascript
 export default {
     tracker: {
-        username: "name",			// Login name to series-tracker website
+        username: "name",			  // Login name to series-tracker website
         password: "password",		// Login password to series-tracker website
     },
     vlc: {
         password: "password",		// Your VLC HTTP password	
         host: "localhost",			// If u running VLC on same PC as Tracker then keep that on 'localhost'
-        port: "8080",				// Your VLC port, default is 8080
-        refreshMs: 20000,			// Time between updates in VLC web client in miliseconds
+        port: "8080",				    // Your VLC port, default is 8080
+        refreshMs: 20000,			  // Time between updates in VLC web client in miliseconds
     },
 };
 
