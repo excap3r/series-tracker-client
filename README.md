@@ -15,6 +15,7 @@ This allows you to watch your favorite series on VLC and automatically synchroni
 - Requirements:
   - [Node.js](https://nodejs.org/)
   - [NPM](https://www.npmjs.com/get-npm) (installed with Node.js)
+  - [VLC](https://www.videolan.org/index.html)
   - A [series-tracker](https://github.com/JakubSladek/series-tracker-client) website to be registered on.
 
 1. Download last [release](https://github.com/JakubSladek/series-tracker-client/releases)
