@@ -15,9 +15,9 @@ This allows you to watch your favorite series on VLC and automatically synchroni
 - Requirements:
   - [Node.js](https://nodejs.org/)
   - [NPM](https://www.npmjs.com/get-npm) (installed with Node.js)
-  - A [series-tracker](https://github.com/JakubSladek/series-tracker) website to be registered on.
+  - A [series-tracker](https://github.com/JakubSladek/series-tracker-client) website to be registered on.
 
-1. Download last [release](https://github.com/JakubSladek/automatic-series-tracker/releases)
+1. Download last [release](https://github.com/JakubSladek/series-tracker-client/releases)
 2. Unzip folder and grab it where do you want
 3. Double click on install.bat and wait for all modules to install or open the project's main directory in terminal and type "npm install" and wait for all modules to install
 
