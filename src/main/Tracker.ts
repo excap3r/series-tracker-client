@@ -48,7 +48,7 @@ class Tracker extends WPAPI {
 	}
 
 	public fetch(): Promise<seriesData[] | boolean> {
-		return new Promise(async (resolve, reject) => {
+		return new Promise(async (resolve) => {
 			this.series()
 				.param("status", "any")
 				.then(async (series: WPRequest) => {
