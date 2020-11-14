@@ -1,0 +1,17 @@
+{
+	"name": "deno-series-tracker",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"main": "main",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Mystiq",
+	"license": "ISC",
+	"dependencies": {
+		"@types/wpapi": "^1.1.0",
+		"node-vlc-http": "^1.1.1",
+		"wpapi": "^1.2.1"
+	}
+}
