@@ -24,7 +24,7 @@ This allows you to watch your favorite series on VLC and automatically synchroni
 
 ## How to start 🤖
 
-- Be sure you've passed VLC Configuration & Tracker Configuration below.
+- Be sure you've passed [VLC Configuration](https://github.com/JakubSladek/series-tracker-client#tracker-configuration-%EF%B8%8F) & [Tracker Configuration](https://github.com/JakubSladek/series-tracker-client#tracker-configuration-%EF%B8%8F) below.
 
 - Windows: double-click on "start.bat"
 - Terminal: type "node main"
