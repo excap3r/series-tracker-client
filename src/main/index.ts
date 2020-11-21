@@ -1,6 +1,6 @@
 import VLC_client from "./VLC_client.js";
 import Helper from "./Helper.js";
-import { seriesData, seriesMeta } from "./interfaces.js";
+import { seriesData, seriesMeta } from "./types.js";
 import Tracker from "./Tracker.js";
 
 const vlc: VLC_client = new VLC_client();

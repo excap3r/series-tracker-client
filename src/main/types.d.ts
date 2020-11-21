@@ -1,5 +1,5 @@
 /** Series data fetched from request and filtered */
-export interface seriesData {
+export type seriesData = {
 	id: number;
 	title: string;
 	series_number: string;
@@ -7,14 +7,14 @@ export interface seriesData {
 }
 
 /** Series meta filtered */
-export interface seriesMeta {
+export type seriesMeta = {
 	title: string;
 	series_number: string;
 	episode_number: string;
 }
 
 /** WPAPI Custom Route Options */
-export interface routeOptions {
+export type routeOptions = {
 	/** Name-space of route, e.g. 'wp/v2'" */
 	namespace: string;
 	/** Rest-base of route, e.g. '/series/(?P<id>\\d+)' */
@@ -22,7 +22,7 @@ export interface routeOptions {
 }
 
 /** Arguments for add method of Tracker */
-export interface addArgs {
+export type addArgs = {
 	title: string;
 	series_number: string;
 	episode_number: string;
@@ -30,7 +30,7 @@ export interface addArgs {
 }
 
 /** Arguments for update method of Tracker */
-export interface updateArgs {
+export type updateArgs = {
 	id: number;
 	title: string;
 	series_number: string;

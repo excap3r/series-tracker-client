@@ -1,5 +1,5 @@
 import WPAPI, { WPAPIOptions, WPRequest, WPRequestFactory } from "wpapi";
-import { addArgs, routeOptions, seriesData, seriesMeta, updateArgs } from "./interfaces.js";
+import { addArgs, routeOptions, seriesData, seriesMeta, updateArgs } from "./types.js";
 import Helper from "./Helper.js";
 import config from "../config/config.js";
 

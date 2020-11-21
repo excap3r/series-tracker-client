@@ -1,4 +1,4 @@
-import { seriesData, seriesMeta } from "./interfaces.js";
+import { seriesData, seriesMeta } from "./types.js";
 
 class Helper {
 	public static isValidStatus(status: any): Promise<boolean> {
